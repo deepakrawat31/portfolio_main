@@ -19,8 +19,8 @@ module.exports = {
         '22': '5.5rem',
       },
       backgroundImage: theme => ({
-        'portfolio-img': "url('./src//assets/drportfolio.png')",
-        'product-img': "url('./src//assets/productpage.png')",
+        'portfolio-img': "url('./src/assets/drportfolio.png')",
+        'product-img': "url('./src/assets/productpage.png')",
       }),
     },
   },
