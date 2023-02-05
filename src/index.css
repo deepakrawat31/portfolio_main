@@ -30,10 +30,11 @@ body::-webkit-scrollbar-thumb {
   border-bottom-left-radius: 4px;
 }
 
-
-
-
 @layer components {
+
+  html {
+    @apply scroll-smooth
+  }
 
   .chevronup {
     @apply inline-block text-emerald-400 text-2xl rotate-180 transition-transform duration-200
