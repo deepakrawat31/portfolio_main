@@ -43,7 +43,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App selection:bg-emerald-900">
+    <div className="App selection:bg-emerald-900 scroll-smooth">
       <div className="h-screen w-screen fixed flex items-center justify-center -z-40 p-16">
         <svg viewBox="0 0 600 600" className='opacity-10 w-80 h-80 md:h-96 md:w-96'>
           <path d="M331.076 0C331.076 0 331.076 166.172 331.076 288.127C331.076 410.082 331.076 600 331.076 600L451.507 446.438V222.427L600 300.792V115.567L331.076 0Z" fill="#4B4B4B"/>
@@ -104,7 +104,6 @@ function App() {
                   portfolio
                   <div className="flex items-center gap-4">
                   <a href="https://github.com/deepakrawat31/portfolio_main" target={'_blank'} className='h-fit'><FiGithub className='hover:text-slate-200 transition-colors ease-in duration-200' /></a>
-                  <a href="" className='h-fit'><FiExternalLink className='hover:text-slate-200 transition-colors ease-in duration-200' /></a>
                   </div>
                 </span>
                 <span className='flex flex-col gap-4'>
