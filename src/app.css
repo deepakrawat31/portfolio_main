@@ -1,0 +1,11 @@
+.typed-cursor {
+  display: inline-block;
+  color: rgb(52 211 153);
+  font-size: 2rem;
+}
+
+@media (width < 620px) {
+  .typed-cursor {
+    display: none;
+  }
+}
