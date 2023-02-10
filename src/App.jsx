@@ -85,7 +85,7 @@ function App() {
               currently contemplating about what stack to go for... any suggestions?<br></br>
             </p>
             <button className='mt-10 lg:mt-14 md:text-xl relative font-semibold tracking-wider lg:text-2xl px-2 py-1 lg:px-4 lg:py-2 before:block before:absolute before:-z-10 before:-inset-1 before:-skew-y-3 before:bg-emerald-500 text-white md:hover:before:skew-y-3 md:before:transition-transform md:before:duration-300 md:before:ease-in'>
-              <a href="./public/deepakrawat_cv.pdf" download>Reasume</a>
+              <a href="./public/deepak_rawat_cv.pdf" download>Reasume</a>
             </button>
           </div>
         </section>
